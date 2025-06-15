@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Landing Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8fafc;
+      color: #222;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 80vh;
+      background: linear-gradient(120deg, #6a82fb 0%, #fc5c7d 100%);
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      max-width: 500px;
+    }
+    .hero .cta-btn {
+      padding: 15px 35px;
+      font-size: 1.1rem;
+      background: #fff;
+      color: #fc5c7d;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      font-weight: 700;
+      transition: background 0.2s, color 0.2s;
+    }
+    .hero .cta-btn:hover {
+      background: #fc5c7d;
+      color: #fff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background: #fff;
+      color: #6a82fb;
+      font-size: 1rem;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Welcome to Your Product!</h1>
+    <p>
+      Build beautiful landing pages easily and quickly. Launch your idea, service, or business with a simple and modern design.
+    </p>
+    <button class="cta-btn">Get Started</button>
+  </div>
+  <footer>
+    &copy; 2025 Your Company. All rights reserved.
+  </footer>
+</body>
+</html>
