@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Simple Landing Page</title>
+  <title>the world is on fire and i'm making a web page</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -62,14 +62,13 @@
 </head>
 <body>
   <div class="hero">
-    <h1>Welcome to Your Product!</h1>
+    <h1>well well well if it isn't another web page</h1>
     <p>
-      Build beautiful landing pages easily and quickly. Launch your idea, service, or business with a simple and modern design.
+      this time it's for no other reason than. . .oh who the hell knows why anything.
     </p>
-    <button class="cta-btn">Get Started</button>
   </div>
   <footer>
-    &copy; 2025 Your Company. All rights reserved.
+    &copy; 2025 A Company, Maybe. All rights reserved.
   </footer>
 </body>
 </html>
